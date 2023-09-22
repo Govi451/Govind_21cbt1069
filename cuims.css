@@ -1,0 +1,107 @@
+/*BODY-BACKGROUND*/
+body
+{
+  background-image: linear-gradient(to right,blue,purple);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  font-family: sans-serif;
+}
+nav ul
+{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  width: 100%;
+  background-color: antiquewhite;
+  
+}
+nav ul li{
+   padding: 0px 14px;
+}
+.brand img{
+  width: 44px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.songItem{
+  height: 40px;
+  width: 400px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-content: center;
+  border-radius: 34px;
+}
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.songItem img:hover{
+  color: red;
+}
+.timestamp{
+  margin: 0 23px;
+}
+.timestamp i{
+  pointer: cursor;
+}
+.songlistplay{
+  margin-top: 10px;
+}
+.container{
+  height: 60vh;
+  width: 70%;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 23px auto; 
+  padding: 34px;
+  border-radius: 12px;
+  background-image: url(C:\Users\Govind & Shrishti\Documents\HTML\images\7.png);
+  background-size: cover;
+  border: 4px solid antiquewhite;
+}
+.songitemContainer{
+ margin: 10px;
+}
+.bottom{
+  position: sticky;
+  height: 120px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.songinfo{
+  position: absolute;
+  left: 10vw;
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.icons{
+  margin-top: 10px;
+}
+.icons i{
+  cursor: pointer;
+}
+#musicprogressBar{
+  width: 80vw;
+  
+}
